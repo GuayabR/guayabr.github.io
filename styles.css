@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+h1,
+h2 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.section {
+    padding: 2rem;
+}
+
+.social-links a,
+.project a {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-links a:hover,
+.project a:hover {
+    background-color: #0056b3;
+}
